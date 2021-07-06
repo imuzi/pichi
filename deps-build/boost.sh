@@ -121,6 +121,7 @@ function build_for_android()
     "x86_64") address_model=64; ARCH=x86;;
     "arm") address_model=32;;
     "arm64") address_model=64; ARCH=arm;;
+#   "arm64") address_model=64; ARCH=arm64;;
     *) echo "ARCH is unrecognized"; exit 1;;
   esac
 
