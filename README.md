@@ -380,7 +380,7 @@ Build and run on Windows with [Vcpkg](https://github.com/Microsoft/vcpkg):
 
 ```
 PS C:\pichi> cmake -D CMAKE_TOOLCHAIN_FILE=C:/vcpkg/scripts/buildsystems/vcpkg.cmake `
->> -D VCPKG_TARGET_TRIPLET="x64-windows-static" -D CMAKE_BUILD_TYPE=MinSizeRel -B build .
+>> -D VCPKG_TARGET_TRIPLET="x86-windows-static" -D CMAKE_BUILD_TYPE=MinSizeRel -B build .
 PS C:\pichi> cmake --build build --config Release
 PS C:\pichi> cmake --build build --config Release --target test
 ```
